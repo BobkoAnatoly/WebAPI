@@ -9,7 +9,7 @@ namespace Application.Common.Helpers.Criptography
 {
     public static class PasswordHasher
     {
-        public static void HashPassword(string password, byte[] passwordHash, byte[] passwordSalt)
+        public static void HashPassword(string password,out byte[] passwordHash,out byte[] passwordSalt)
         {
             var hmac = new HMACSHA1();
             passwordSalt = hmac.Key;

@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
+    <ProjectReference Include="..\Application.Model\Application.Model.csproj" />
   </ItemGroup>
 
 </Project>

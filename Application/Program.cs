@@ -1,3 +1,5 @@
+using Application.BusinessLogic.Services.Implementations;
+using Application.BusinessLogic.Services.Interfaces;
 using Application.Common.Helpers.Mapper;
 using Application.Model;
 using AutoMapper;
@@ -25,6 +27,9 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).
         ValidateAudience = false
     });
 
+builder.Services.AddTransient<IAuthService, AuthService>();
+builder.Services.AddTransient<IUserService, UserService>();
+builder.Services.AddTransient<ITokenService, TokenService>();
 builder.Services.AddSingleton(mapper);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

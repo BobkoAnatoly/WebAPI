@@ -13,6 +13,6 @@ namespace Application.Model.Models
         public byte[] PasswordSalt { get; set; }
         public byte[] PasswordHash { get; set; }
         public int Age { get; set; }
-
+        public ICollection<RefreshToken> RefreshToken { get; set; }
     }
 }

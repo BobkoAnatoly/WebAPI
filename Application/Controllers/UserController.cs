@@ -7,6 +7,10 @@ namespace Application.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-
+        [HttpGet]
+        public IActionResult Get(int id)
+        {
+            
+        }
     }
 }
