@@ -10,7 +10,7 @@ namespace Application.BusinessLogic.Services.Interfaces
 {
     public interface IUserService
     {
-        List<User> Get();
+        List<UserModel> Get();
         UserModel Get(int id);
         void Edit(int userId, UpdateUserModel model);
         void Delete(int id);

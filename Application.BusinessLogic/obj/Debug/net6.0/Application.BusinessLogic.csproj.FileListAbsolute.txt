@@ -1,0 +1,17 @@
+C:\Users\User\source\repos\WebAPI\Application.BusinessLogic\obj\Debug\net6.0\Application.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\WebAPI\Application.BusinessLogic\obj\Debug\net6.0\Application.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\WebAPI\Application.BusinessLogic\obj\Debug\net6.0\Application.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\WebAPI\Application.BusinessLogic\obj\Debug\net6.0\Application.BusinessLogic.AssemblyInfo.cs
+C:\Users\User\source\repos\WebAPI\Application.BusinessLogic\obj\Debug\net6.0\Application.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\WebAPI\Application.BusinessLogic\bin\Debug\net6.0\Application.BusinessLogic.deps.json
+C:\Users\User\source\repos\WebAPI\Application.BusinessLogic\bin\Debug\net6.0\Application.BusinessLogic.dll
+C:\Users\User\source\repos\WebAPI\Application.BusinessLogic\bin\Debug\net6.0\Application.BusinessLogic.pdb
+C:\Users\User\source\repos\WebAPI\Application.BusinessLogic\bin\Debug\net6.0\Application.Common.dll
+C:\Users\User\source\repos\WebAPI\Application.BusinessLogic\bin\Debug\net6.0\Application.Model.dll
+C:\Users\User\source\repos\WebAPI\Application.BusinessLogic\bin\Debug\net6.0\Application.Common.pdb
+C:\Users\User\source\repos\WebAPI\Application.BusinessLogic\bin\Debug\net6.0\Application.Model.pdb
+C:\Users\User\source\repos\WebAPI\Application.BusinessLogic\obj\Debug\net6.0\Application.BusinessLogic.csproj.CopyComplete
+C:\Users\User\source\repos\WebAPI\Application.BusinessLogic\obj\Debug\net6.0\Application.BusinessLogic.dll
+C:\Users\User\source\repos\WebAPI\Application.BusinessLogic\obj\Debug\net6.0\refint\Application.BusinessLogic.dll
+C:\Users\User\source\repos\WebAPI\Application.BusinessLogic\obj\Debug\net6.0\Application.BusinessLogic.pdb
+C:\Users\User\source\repos\WebAPI\Application.BusinessLogic\obj\Debug\net6.0\ref\Application.BusinessLogic.dll

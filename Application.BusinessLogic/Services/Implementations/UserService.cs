@@ -3,6 +3,7 @@ using Application.Common.Models;
 using Application.Model;
 using Application.Model.Models;
 using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 
 namespace Application.BusinessLogic.Services.Implementations
 {
@@ -26,17 +27,21 @@ namespace Application.BusinessLogic.Services.Implementations
         {
             var user = _context.Users.SingleOrDefault(x => x.Id == userId);
             if (user == null) throw new Exception("Пользоватеть не найден");
-
+            var updatedUser = _mapper.Map<UpdateUserModel, User>(model);
+            _context.Users.Update(updatedUser);
+            _context.SaveChanges();
         }
-
-        public List<User> Get()
+        
+        public List<UserModel> Get()
         {
-            throw new NotImplementedException();
+            return _mapper.Map<List<User>,List<UserModel>>(_context.Users.AsNoTracking().ToList());
         }
 
         public UserModel Get(int id)
         {
-            throw new NotImplementedException();
+            var user = _context.Users.AsNoTracking().SingleOrDefault(x => x.Id == id);
+            return _mapper.Map<User, UserModel>(user);
+
         }
     }
 }

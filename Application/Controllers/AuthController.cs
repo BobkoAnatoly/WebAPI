@@ -24,7 +24,6 @@ namespace Application.Controllers
         }
 
         [HttpPost("login")]
-        [AllowAnonymous]
         public IActionResult Login(LoginModel loginModel)
         {
             return Ok(_authService.Login(loginModel));

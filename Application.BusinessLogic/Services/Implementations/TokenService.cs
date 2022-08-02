@@ -24,7 +24,7 @@ namespace Application.BusinessLogic.Services.Implementations
             _context = context;
             _mapper = mapper;
             _config = config;
-            _key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["TokenKey"]));
+            _key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["JWT:TokenKey"]));
         }
         public JwtSecurityToken CreateToken(User user)
         {
@@ -32,7 +32,7 @@ namespace Application.BusinessLogic.Services.Implementations
             {
                 new Claim(JwtRegisteredClaimNames.NameId,user.Login)
             };
-            var creds = new SigningCredentials(_key, SecurityAlgorithms.HmacSha256Signature);
+            var creds = new SigningCredentials(_key, SecurityAlgorithms.HmacSha512);
             var Jwt = new JwtSecurityToken(
                 issuer: _config["Jwt:Issuer"],
                 audience: _config["Jwt:Audience"],

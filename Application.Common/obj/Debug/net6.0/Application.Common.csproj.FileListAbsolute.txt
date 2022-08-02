@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\WebAPI\Application.Common\bin\Debug\net6.0\Application.Common.deps.json
+C:\Users\User\source\repos\WebAPI\Application.Common\bin\Debug\net6.0\Application.Common.dll
+C:\Users\User\source\repos\WebAPI\Application.Common\bin\Debug\net6.0\Application.Common.pdb
+C:\Users\User\source\repos\WebAPI\Application.Common\bin\Debug\net6.0\Application.Model.dll
+C:\Users\User\source\repos\WebAPI\Application.Common\bin\Debug\net6.0\Application.Model.pdb
+C:\Users\User\source\repos\WebAPI\Application.Common\obj\Debug\net6.0\Application.Common.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\WebAPI\Application.Common\obj\Debug\net6.0\Application.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\WebAPI\Application.Common\obj\Debug\net6.0\Application.Common.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\WebAPI\Application.Common\obj\Debug\net6.0\Application.Common.AssemblyInfo.cs
+C:\Users\User\source\repos\WebAPI\Application.Common\obj\Debug\net6.0\Application.Common.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\WebAPI\Application.Common\obj\Debug\net6.0\Application.Common.csproj.CopyComplete
+C:\Users\User\source\repos\WebAPI\Application.Common\obj\Debug\net6.0\Application.Common.dll
+C:\Users\User\source\repos\WebAPI\Application.Common\obj\Debug\net6.0\refint\Application.Common.dll
+C:\Users\User\source\repos\WebAPI\Application.Common\obj\Debug\net6.0\Application.Common.pdb
+C:\Users\User\source\repos\WebAPI\Application.Common\obj\Debug\net6.0\ref\Application.Common.dll

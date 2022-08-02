@@ -8,8 +8,8 @@ namespace Application.Common.Helpers.Mapper
     {
         public MapperProfile()
         {
-            CreateMap<RegisterModel, User>();
-            CreateMap<User, UserModel>();
+            CreateMap<RegisterModel, User>().ReverseMap();
+            CreateMap<User, UserModel>().ReverseMap();
         }
     }
 }
