@@ -18,6 +18,8 @@ x => x.MigrationsAssembly("Application")));
 
 var mappingConfig = new MapperConfiguration(mc => mc.AddProfile(new MapperProfile()));
 IMapper mapper = mappingConfig.CreateMapper();
+builder.Services.AddSingleton(mapper);
+
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).
     AddJwtBearer(options => options.TokenValidationParameters = new TokenValidationParameters()
     {
@@ -31,7 +33,6 @@ builder.Services.AddTransient<IAuthService, AuthService>();
 builder.Services.AddTransient<INoteServise, NoteService>();
 builder.Services.AddTransient<IUserService, UserService>();
 builder.Services.AddTransient<ITokenService, TokenService>();
-builder.Services.AddSingleton(mapper);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>

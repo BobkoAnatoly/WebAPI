@@ -15,7 +15,6 @@ namespace Application.Common.Helpers.Mapper
                 .ForMember(x => x.Title, src => src.MapFrom(src => src.Title))
                 .ForMember(x => x.Description, src => src.MapFrom(src => src.Description))
                 .ReverseMap();
-            CreateMap<List<Note>, List<NoteModel>>().ReverseMap();
         }
     }
 }

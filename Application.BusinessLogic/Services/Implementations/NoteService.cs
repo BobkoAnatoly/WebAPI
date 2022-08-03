@@ -34,7 +34,7 @@ namespace Application.BusinessLogic.Services.Implementations
         public void ParseNotes()
         {
             NotesParser parser = new NotesParser();
-            var notesModelList = parser.Parse() as List<NoteModel>;
+            var notesModelList = parser.Parse();
             if (notesModelList == null) throw new Exception();
 
             var notesList = _mapper.Map<List<NoteModel>,List<Note>>(notesModelList);

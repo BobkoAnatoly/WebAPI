@@ -6,7 +6,7 @@ namespace Application.Parser
     public class NotesParser
     {
         private List<NoteModel> noteModels = new List<NoteModel>();
-        public object Parse()
+        public List<NoteModel> Parse()
         {
             string path = "https://www.1tv.ru/shows/neputevye-zametki/vypuski";
             try
@@ -33,7 +33,7 @@ namespace Application.Parser
 
                                     var cards = doc.DocumentNode
                                     .SelectNodes(".//section[@class='video-cards']//div[@class='collection_items']")[0]
-                                    .ChildNodes;
+                                    .ChildNodes.Where(x=>x.HasClass("itv-index-card"));
 
                                     foreach (var item in cards)
                                     {
