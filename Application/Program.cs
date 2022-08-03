@@ -28,6 +28,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).
     });
 
 builder.Services.AddTransient<IAuthService, AuthService>();
+builder.Services.AddTransient<INoteServise, NoteService>();
 builder.Services.AddTransient<IUserService, UserService>();
 builder.Services.AddTransient<ITokenService, TokenService>();
 builder.Services.AddSingleton(mapper);

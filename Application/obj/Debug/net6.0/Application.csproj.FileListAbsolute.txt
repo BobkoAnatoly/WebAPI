@@ -68,3 +68,6 @@ C:\Users\User\source\repos\WebAPI\Application\obj\Debug\net6.0\Application.genru
 C:\Users\User\source\repos\WebAPI\Application\obj\Debug\net6.0\ref\Application.dll
 C:\Users\User\source\repos\WebAPI\Application\bin\Debug\net6.0\Humanizer.dll
 C:\Users\User\source\repos\WebAPI\Application\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\source\repos\WebAPI\Application\bin\Debug\net6.0\HtmlAgilityPack.dll
+C:\Users\User\source\repos\WebAPI\Application\bin\Debug\net6.0\Application.Parser.dll
+C:\Users\User\source\repos\WebAPI\Application\bin\Debug\net6.0\Application.Parser.pdb

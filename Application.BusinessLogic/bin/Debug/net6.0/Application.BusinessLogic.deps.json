@@ -10,6 +10,7 @@
         "dependencies": {
           "Application.Common": "1.0.0",
           "Application.Model": "1.0.0",
+          "Application.Parser": "1.0.0",
           "Microsoft.Extensions.Configuration": "6.0.1",
           "System.IdentityModel.Tokens.Jwt": "6.10.0"
         },
@@ -25,6 +26,14 @@
           "lib/netstandard2.1/AutoMapper.dll": {
             "assemblyVersion": "11.0.0.0",
             "fileVersion": "11.0.1.0"
+          }
+        }
+      },
+      "HtmlAgilityPack/1.11.43": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.43.0",
+            "fileVersion": "1.11.43.0"
           }
         }
       },
@@ -242,6 +251,15 @@
         "runtime": {
           "Application.Model.dll": {}
         }
+      },
+      "Application.Parser/1.0.0": {
+        "dependencies": {
+          "Application.Common": "1.0.0",
+          "HtmlAgilityPack": "1.11.43"
+        },
+        "runtime": {
+          "Application.Parser.dll": {}
+        }
       }
     }
   },
@@ -257,6 +275,13 @@
       "sha512": "sha512-WIadGC1pIwbnyTubvI577p3F++Bsj9q2Q3OaAc1I0QS+JhupN1xkdrPBhI9bPIeg63zM81tZplUNYkqU1HE5jQ==",
       "path": "automapper/11.0.1",
       "hashPath": "automapper.11.0.1.nupkg.sha512"
+    },
+    "HtmlAgilityPack/1.11.43": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C2gpt+S2tdFlQMOC3DK7rHZ8iv6EpDuIo4v0UTUSGX1F1bZ+NAQ3gp77HK8/JfCDszUm3Y2rHoyTp/TpO4KOIA==",
+      "path": "htmlagilitypack/1.11.43",
+      "hashPath": "htmlagilitypack.1.11.43.nupkg.sha512"
     },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
@@ -418,6 +443,11 @@
       "sha512": ""
     },
     "Application.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Application.Parser/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "rKmaGK4W3YKCQIapcn0zBd4GAwMJAQumnEiH4Rj3pxhLIW1yaDMa3TKH0c/IoZhynS8Br5rXovNDXPB6P3AhfA==",
+  "dgSpecHash": "297GWP12dAxwwPuLGSC/3FSRlQzGHBKIGvslrB7Is2KFy1BQMWoMgQV9f98OYibCmEGgvQ+/VKPiR4tbhbdNIw==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\source\\repos\\WebAPI\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\htmlagilitypack\\1.11.43\\htmlagilitypack.1.11.43.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.7\\microsoft.aspnetcore.authentication.jwtbearer.6.0.7.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

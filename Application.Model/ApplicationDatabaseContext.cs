@@ -13,6 +13,7 @@ namespace Application.Model
 
         public DbSet<User> Users { get; set; } = null!;
         public DbSet<RefreshToken> RefreshTokens { get; set; } = null!;
+        public DbSet<Note> Notes { get; set; } = null!;
 
     }
 }

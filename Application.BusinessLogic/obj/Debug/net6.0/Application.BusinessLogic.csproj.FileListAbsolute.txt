@@ -15,3 +15,5 @@ C:\Users\User\source\repos\WebAPI\Application.BusinessLogic\obj\Debug\net6.0\App
 C:\Users\User\source\repos\WebAPI\Application.BusinessLogic\obj\Debug\net6.0\refint\Application.BusinessLogic.dll
 C:\Users\User\source\repos\WebAPI\Application.BusinessLogic\obj\Debug\net6.0\Application.BusinessLogic.pdb
 C:\Users\User\source\repos\WebAPI\Application.BusinessLogic\obj\Debug\net6.0\ref\Application.BusinessLogic.dll
+C:\Users\User\source\repos\WebAPI\Application.BusinessLogic\bin\Debug\net6.0\Application.Parser.dll
+C:\Users\User\source\repos\WebAPI\Application.BusinessLogic\bin\Debug\net6.0\Application.Parser.pdb

@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Application.BusinessLogic\Application.BusinessLogic.csproj" />
+    <ProjectReference Include="..\Application.Common\Application.Common.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "RB5V2PVBIZm1o0U32duytU+Ow0A/1FivpJ+x2bfvDxNP1OGKsHKQ1Jn1lSs8fw1dXqLCt2p0TvOzP4mhTydtcA==",
+  "dgSpecHash": "qyHkhQs4Qtp4l4flj1Ed4uZsHj7NEKVryhY9rPuGl4YIY1aOUxgOc9yfUX/OCk9Le/GDrg7wD7GqMH8YQI56bQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\source\\repos\\WebAPI\\Application.BusinessLogic\\Application.BusinessLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\htmlagilitypack\\1.11.43\\htmlagilitypack.1.11.43.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.7\\microsoft.entityframeworkcore.abstractions.6.0.7.nupkg.sha512",
