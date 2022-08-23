@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\WebAPI\Application.Model\bin\Debug\net6.0\Application.Model.deps.json
+C:\Users\User\source\repos\WebAPI\Application.Model\bin\Debug\net6.0\Application.Model.runtimeconfig.json
+C:\Users\User\source\repos\WebAPI\Application.Model\bin\Debug\net6.0\Application.Model.dll
+C:\Users\User\source\repos\WebAPI\Application.Model\bin\Debug\net6.0\Application.Model.pdb
+C:\Users\User\source\repos\WebAPI\Application.Model\obj\Debug\net6.0\Application.Model.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\WebAPI\Application.Model\obj\Debug\net6.0\Application.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\WebAPI\Application.Model\obj\Debug\net6.0\Application.Model.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\WebAPI\Application.Model\obj\Debug\net6.0\Application.Model.AssemblyInfo.cs
+C:\Users\User\source\repos\WebAPI\Application.Model\obj\Debug\net6.0\Application.Model.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\WebAPI\Application.Model\obj\Debug\net6.0\Application.Model.dll
+C:\Users\User\source\repos\WebAPI\Application.Model\obj\Debug\net6.0\refint\Application.Model.dll
+C:\Users\User\source\repos\WebAPI\Application.Model\obj\Debug\net6.0\Application.Model.pdb
+C:\Users\User\source\repos\WebAPI\Application.Model\obj\Debug\net6.0\Application.Model.genruntimeconfig.cache
+C:\Users\User\source\repos\WebAPI\Application.Model\obj\Debug\net6.0\ref\Application.Model.dll
